@@ -4,19 +4,20 @@
   "description": "Get started with building React apps",
   "repository": "",
   "dependencies": {
-    "react-touch": "~0.0.1",
-    "react": "http://petehunt.net/react/react-0.5.1.tar.gz"
+    "react-touch": "0.0.x",
+    "react": "0.8.x"
   },
   "devDependencies": {
     "jsx-loader": "petehunt/jsx-loader",
-    "webpack": "~0.11.0",
-    "url-loader": "~0.5.1",
-    "css-loader": "~0.6.2",
-    "style-loader": "~0.6.0"
+    "webpack": ">= 1.0.0-rc12",
+    "url-loader": ">= 0.5",
+    "css-loader": ">= 0.6",
+    "style-loader": ">= 0.6"
   },
   "scripts": {
     "start": "webpack --watch --debug src/main.js build/main.js"
   },
+  "engine": "node >= 0.10",
   "author": "Pete Hunt",
   "license": "Apache 2"
 }
